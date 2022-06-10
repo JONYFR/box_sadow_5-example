@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Work+Sans:wght@400;700&display=swap');
+body {
+    background: #ccc;
+    font-family: 'Audiowide', cursive;
+}
+
+.box h3 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #111;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.box {
+    width: 70%;
+    height: 200px;
+    background: #FFF;
+    margin: 40px auto;
+}
+
+.effect2 {
+    position: relative;
+}
+
+.effect2::before,
+.effect2::after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 10px;
+    left: 8px;
+    width: 50%;
+    top: 80%;
+    max-width: 250px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.effect2::after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+.sadow-1 {
+    height: 300px;
+    width: 600px;
+    background-color: #eeddcc;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sadow_1 {
+    height: 180px;
+    width: 220px;
+    background-color: #fff;
+    box-shadow: 7px 7px 2px #9c9185;
+}
+
+.sadow_2 {
+    height: 180px;
+    width: 220px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px 3px inset #c0c2c8;
+}
+
+.border-sadow {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 300px;
+    width: 600px;
+    background-color: #FFF;
+    align-items: center;
+}
+
+.sadow_4 {
+    width: 150px;
+    height: 150px;
+}
+
+.sadow_3 {
+    width: 150px;
+    height: 150px;
+}
+
+.sadow_3 {
+    box-shadow: blue 0px 0px 1px 3px inset, rgb(255, 255, 255) 10px -10px 1px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 1px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 1px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 1px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.sadow_4 {
+    box-shadow: rgb(85, 91, 255) 0px 0px 1px 3px, rgb(31, 193, 27) 0px 0px 1px 6px, rgb(255, 217, 19) 0px 0px 1px 9px, rgb(255, 156, 85) 0px 0px 1px 12px, rgb(255, 85, 85) 0px 0px 1px 15px;
+}
+
+.landscope-sadow {
+    height: 200px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #b3b4b7;
+}
